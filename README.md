@@ -1,6 +1,6 @@
 # 🔥DSA-Bootcamp-C
 
-![DSA-Bootcamp-C]()
+![DSA-Bootcamp-C](https://socialify.git.ci/cfc-community/C-DSA-BootCamp/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark)
 
 - ▶ DSA BOOTCAMP IN C PROGRMMING LANGUAGE
 
