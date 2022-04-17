@@ -60,3 +60,38 @@
     If bill exceeds Rs. 400 then a surcharge of 15% will be charged and the minimum bill should be of Rs. 100/-
 
 15. Write a program in C which is a Menu-Driven Program to perform a simple calculation.
+
+<!-- 16. Write a program that ask for  user's monthly pocket money and how much he/she can spend on food, clothes, transportation and entertainment.The program should also calculate the total amount of money left after spending on food, clothes, transportation and entertainment.
+
+    The program should display the following information:
+```yml
+    Total amount of pocket money
+    Amount spent on food
+    Amount spent on clothes
+    Amount spent on transportation
+    Amount spent on entertainment
+    Amount left after spending on food, clothes, transportation and entertainment
+```
+
+The percentage of amount can be spend  -->
+
+16. Write a C program to check whether a given number is a perfect square or not.
+
+17. Write a C program to check if the number is palindrome or not.
+
+18. Write a C program to check whether a given number is a power of 2 or not.
+
+19.  Find the output of the given C program.
+
+        ```c
+        #include<stdio.h>
+        int main()
+        {
+        if(sizeof('a')==sizeof("abc"))
+        printf("a");
+        else printf("b");
+        return 0;
+        }
+        ```
+
+20. Write a C program to input all sides of a triangle and check whether triangle is valid or not.
