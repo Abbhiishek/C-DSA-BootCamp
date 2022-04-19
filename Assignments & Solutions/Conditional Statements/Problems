@@ -95,3 +95,10 @@ The percentage of amount can be spend  -->
         ```
 
 20. Write a C program to input all sides of a triangle and check whether triangle is valid or not.
+
+21. Write a C program to check if the user input is divisible by
+
+    3 => print (Fizz)
+    5 => print (Buzz)
+    3 and 5 => print(FizzBuzz)
+    else print the number
