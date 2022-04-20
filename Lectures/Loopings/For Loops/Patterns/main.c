@@ -90,11 +90,69 @@ int main(){
         printf("\n");
         
     }
+
+
+    //   A                        5    // 5                           row             col
+    //   A B                      4 5                                  1               1
+    //   A B C                    3 4 5                                 2               2
+    //   A B C D                  2 3 4 5                               3               3
+                                                                        // 4               4
     
-    
+    for(int row = 1 ; row <= n ; row++){       // 1   2  3  4  5  6
+
+        int row1 = n-row+2;
+
+        for (int col = 1; col <=row; col++){  // 1 2 3  4  5
+
+                // do this            // y  y y   y y y  y y y y  y y y y y
+
+                // 5
+                // 4 5
+                // 3 4 5
+                // 2 3 4 5   n row 
+
+            if(col==1){
+                printf("%d", row1);
+            }else{
+                printf(" %d", row1);
+            }
+
+            row1++;
+                
+
+                // printf(" * ");
+        }
+        printf("\n");
 
 
+        
+    }
 
+    for(int row = 1 ; row <= n ; row++){       // 1   2  3  4  5  6
+
+        int alphabet = 65;
+
+        for (int col = 1; col <=row; col++){  // 1 2 3  4  5
+
+                // do this            // y  y y   y y y  y y y y  y y y y y
+
+                // 5
+                // 4 5
+                // 3 4 5
+                // 2 3 4 5   n row 
+
+            printf("%c ", alphabet);
+
+            alphabet++;
+                
+
+                // printf(" * ");
+        }
+        printf("\n");
+
+
+        
+    }
 
     return 0;
 }
