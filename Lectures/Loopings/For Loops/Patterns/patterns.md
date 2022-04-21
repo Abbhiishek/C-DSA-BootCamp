@@ -137,3 +137,104 @@ for(int row=1 ; row <= n ; row++){
     }
     printf("\n");
 }
+
+```
+    ++++
+    ++++            
+    ++++
+
+```
+14
+
+                                            row        col  
+```c
+                           A                 1           1
+                           A B               2           2
+                           A B C             3           3
+                           A B C D           4           4
+                           A B C D E         5           5
+                           ..........        n           n
+
+````
+
+
+for(int row= 1; row <= n ; row++){
+
+    char character = 'A';  
+
+    for(int col = 1 ; col <= row+1 ; col++){
+
+        printf(" %c"  , character);
+        character ++;
+
+    }
+    printf("\n");
+
+
+
+}
+
+
+
+```c
+               row      col
+1               1       1
+1 2             2       2
+1 2 3           3       3
+1 2 3 4
+1 2 3 4 5 
+
+```
+
+
+
+for(int row = 1 ; row <= n ; row++){
+
+    for(int col= 1 ; col <= row ; col++){
+
+        printf("%d", col);
+
+
+
+    }
+    printf("\n");
+}
+
+
+
+```c
+                         row               col         spaces
+ ******                  1 -1                 6            0
+  *****                  2 -1                 6            1
+   ****                   3 -1
+    ***                   4 -1                6             3  
+     **
+      *
+
+
+```
+
+
+++++++
+++++++
+++++++
+++++++
+++++++
+++++++
+
+
+
+for(int row= 1 ; row <= n ; row++){
+
+    for(int col = 1 ; col <=n; col++){
+        printf("+");
+
+        if(col<=row-1){
+            printf(" ");
+        }else{
+            printf("*")
+        }
+
+    }
+    printf("\n");
+}
